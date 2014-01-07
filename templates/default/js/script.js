@@ -7,11 +7,11 @@ $(document).ready(function(){
 });
 
 function get_dash_infos(){
-	$('#dash_system,#dash_network,#dash_user,#dash_hdd,#dash_disk,#dash_services,#dash_gpio').html('Chargement...')
+	$('#dash_system,#dash_network,#dash_user,#dash_domo_system').html('Chargement...')
 
 
 
-	$('#dash_system,#dash_network,#dash_user,#dash_hdd,#dash_disk,#dash_services,#dash_gpio').each(function(i,elem){
+	$('#dash_system,#dash_network,#dash_user,#dash_domo_system').each(function(i,elem){
 		refresh_dash(elem);
 		setInterval(function(){
 			refresh_dash(elem);

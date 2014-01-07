@@ -5,8 +5,6 @@ Interface PHP de domotique Y.A.N.A (You Are Not Alone)
 
 Pré-requis
 ============
-
-- Raspberry PI
 - Apache 2 ou Lighttpd
 - PHP 5
 - SQLite 3
